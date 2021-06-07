@@ -1,6 +1,7 @@
 # SMS Validation API
 ## Access the app through https://smsvalidationapi.herokuapp.com/
 The app has been deployed on Heroku.
+
 Redis has been used for caching. Redis server runs on Redis Enterprise Cloud.
 ## Starting the service
 

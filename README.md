@@ -1,8 +1,5 @@
 # SMS Validation API
-## Access the app through https://smsvalidationapi.herokuapp.com/
-The app has been deployed on Heroku.
 
-Redis has been used for caching. Redis server runs on Redis Enterprise Cloud.
 ## Starting the service
 
 Clone the repository and follow the commands:
@@ -14,6 +11,11 @@ Clone the repository and follow the commands:
         >npm start
 
 Sever will start on port 5000
+## OR
+## Access the app through https://smsvalidationapi.herokuapp.com/
+The app has been deployed on Heroku.
+
+Redis has been used for caching. Redis server runs on Redis Enterprise Cloud.
 ## Usage
 Sending a POST request to __/inbound/sms__ JSON format:
 
